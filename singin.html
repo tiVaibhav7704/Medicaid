@@ -1,0 +1,23 @@
+<html>
+<head>
+<title>Login Form Page</title>
+    <link rel="stylesheet" type="text/css" href="signin.css">
+</head>
+
+<body>
+    <form>
+        <input type="text" placeholder="Email id" id="email"><br>
+        <input type="text" placeholder="Password" id="password">
+        <a href="afterauthentication.html"><button onclick="login()">Login</button></a>
+    </form>
+    
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+    <script src="signin.js"></script>
+    <!-- <script src="./index.js"></script> -->
+</body>
+</html>

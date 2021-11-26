@@ -1,0 +1,296 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+body{
+    background-color: #dfe2e7;   
+}
+
+
+header{
+    width: 100%;
+    height: 100vh;
+   
+    
+}
+.mainheader{
+    width: 100%;
+    height: 300%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainheader .logo img{
+    width: 25%;
+    height:30%;
+   margin-right:25rem;
+}
+.mainheader nav{
+      
+     width: 25%;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+}
+.sticky {
+  position: absolute;
+  font-style: italic;
+  width: 100%;
+}
+.mainheader nav a{
+    text-decoration: none;
+    color: rgb(16, 124, 119);
+    transition: top 0.3s;
+}
+.mainheader button{
+    padding: 10px 45px;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    border: none;
+    background-color:  rgb(13, 163, 156);
+    border-radius: 10px;
+    margin-left: 25rem;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 8px;
+  padding-bottom: 9px;
+
+}
+.signup{
+    text-align: center;
+    margin-left: 40rem;
+    margin-top: 10rem;
+    
+}
+
+h1{
+    font-size: xxx-large;
+   color:rgb(13, 163, 156); 
+   font-family: 'Josefin Sans', sans-serif;
+}
+
+.set{
+    color:rgb(13, 163, 156); 
+}
+.set1{
+    color:rgb(13, 163, 156); 
+    font-size: x-large;
+}
+.signup button{
+    font-size: xxx-large;
+    padding: 10px 45px;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    border: none;
+    background-color:  rgb(13, 163, 156);
+    border-radius: 10px;
+    padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 8px;
+  padding-bottom: 9px;
+
+}
+.abou{
+    
+    justify-content: center;
+    margin: auto;
+    word-spacing: 1px;
+    font-size: 20px;
+ background-color: #dfe2e7; 
+    padding: 5%;
+    display: flex;
+}
+.aimage{
+ width: 15%;
+ margin: 5%;
+
+ 
+}
+.para{
+  width: 65%;
+}
+.ssignup{
+  margin-left: 28%;
+}
+.ssignup a button{
+  background-color:rgb(13, 163, 156); 
+  padding: 2%;
+ border-style: none;
+ border-radius: 10px;
+  
+}
+.ssignup a button:hover{
+  background-color: #0bffc2;
+}
+.head1{
+   
+    height: 100%;
+    background: url(newf.jpg);
+   
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+/*contact us */
+#contact{
+    position: relative;
+}
+.headofcontact{
+  width: 65%;
+        font-size:xxx-large;
+       color:black;
+       font-family: 'Josefin Sans', sans-serif;   
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    background: url('contact.jpg') no-repeat center center/cover;
+
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+#contact-box input, 
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+} 
+
+#contact-box form{
+    width: 40%;
+}
+
+#contact-box label{
+   font-size: 1.3rem;
+   font-family: 'Bree Serif', serif;
+
+}
+
+
+
+/*footer*/
+
+footer {
+    background-color: #263238;
+    min-width:280px;
+  }
+  footer ul {
+    list-style: none;
+  }
+  footer .top {
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding:48px 0px 0px;
+  }
+  footer .top .left-side {
+    width:320px;
+  }
+  footer .top .left-side .contact li a i {
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    width:28px;
+    height:28px;
+    background-color: #455a64;
+    border-radius: 50%;
+    margin:0px 16px 16px 0px;
+    transition: 0.4s;
+  }
+  footer .top .left-side .contact li a{
+    text-decoration: none;
+  }
+  footer .top .left-side .contact li a:hover {
+    color:#ccc;
+    text-decoration: none;
+  }
+  footer a,footer h4{
+    color:white;
+  }
+  footer .top .right-side {
+    width:420px;
+  }
+  footer .top .right-side .about p {
+    color:#aaa;
+    padding: 20px 32px 0px 0px;
+  }
+  footer .top .right-side .social-container ul.social {
+    display:flex;
+  }
+  footer .top .right-side .social-container ul.social li a{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #455a64;
+    width:28px;
+    height:28px;
+    margin:2px;
+    border-radius: 2px;
+    transition: 0.4s;
+    text-decoration: none;
+  }
+  footer .top .right-side .social-container ul.social li:nth-child(1) a:hover {
+    background-color: #3b5998;
+    color:white;
+    text-decoration: none;
+  }
+  footer .top .right-side .social-container ul.social li:nth-child(2) a:hover {
+    background-color: #55acee;
+    color:white;
+    text-decoration: none;
+  }
+  footer .top .right-side .social-container ul.social li:nth-child(3) a:hover {
+    background-color: #0077b5;
+    color:white;
+    text-decoration: none;
+  }
+  footer .top .right-side .social-container ul.social li:nth-child(4) a:hover {
+    background-color: #dc4e4a;
+    color:white;
+    text-decoration: none;
+  }
+  footer .bottom p {
+    text-align: center;
+    padding:16px;
+    margin-bottom: 0px;
+  }
+  footer .bottom a{
+    color:#777;
+    font-size:small;
+    cursor:pointer;
+    transition:0.4s;
+    text-decoration: none;
+  
+  }
+  footer .bottom a:hover {
+    color:#ccc;
+    text-decoration: none;
+  }
+  @media(max-width:859px) {
+    footer .top {
+        flex-direction: column-reverse;
+        justify-content: left;
+        margin-left: 32px;;
+        align-items: initial;
+    }
+    footer .top .contact {
+        margin-top: 24px;
+    }
+    footer .top .left-side,footer .top .right-side {
+        width:100%;
+    }
+  }
